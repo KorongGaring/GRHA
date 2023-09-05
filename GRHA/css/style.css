@@ -4,6 +4,7 @@ body {
 
 .navbar {
   background-color: #ffffff;
+  padding: 3px;
 }
 
 .nav-item {
@@ -17,7 +18,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   background-color: #ea1d5c;
-  width: 160px;
+  /* width: 160px; */
   padding: 10px;
   text-align: center;
   text-decoration: none;
@@ -37,4 +38,75 @@ body {
   box-shadow: 0 0 20px rgba(104, 1, 35, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.text-box {
+  padding-top: 75px;
+  padding-bottom: 120px;
+}
+
+.text {
+  font-size: 36px;
+  color: #ea1d5c;
+  font-weight: bold;
+}
+
+.text span {
+ font-size: 36px;
+ color: black;
+ font-weight: 100;
+}
+
+.wrapper img {
+  float: left;
+  margin-right: 60px;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 75px;
+}
+
+.button-learn {
+  top: 55px;
+  font-family: "poppins";
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #ECEAEA;
+  width: 70px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #ea1d5c;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 01px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.button-learn:hover,
+.button-learn:focus,
+.button-learn:active {
+  color: #ffffff;
+  background-color: #ea1d5c;
+  box-shadow: 0 0 10px rgba(104, 1, 35, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.text1 {
+  padding-top: 50px;
+  align-items: center;
+  font-size: 36px;
+  color: #ea1d5c;
+  font-weight: bold;
+}
+
+.text1 span {
+ font-size: 36px;
+ color: black;
+ font-weight: 100;
 }
